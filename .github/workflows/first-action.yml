@@ -7,6 +7,8 @@ jobs:
       - name: Print greeting
         run: |
           echo "Hello World!"
-          echo "What a beautiful day!"
+          echo "Welcome to my first GitHub Action workflow!"
       - name: Print goodbye
-        run: echo "Done - bye!"
+        run: |
+          echo "It's time to say goodbye!"
+          echo "Done - bye!"
